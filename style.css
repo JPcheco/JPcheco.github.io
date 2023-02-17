@@ -337,7 +337,7 @@ section{
 }
 .fun .left .leftTxt::after{
     background: #F2F1E8;
-    content: "Favortie Shows";
+    content: "Favorite Shows";
 }
 .fun .fun-content .left .boxleft{
     /* border: solid 1px white; */
@@ -390,7 +390,7 @@ section{
 }
 .fun .mid .midTxt::after{
     background: #F2F1E8;
-    content: "Favortie Movies";
+    content: "Favorite Movies";
 
 }
 .fun .fun-content .mid .boxmid{
@@ -443,7 +443,7 @@ section{
 }
 .fun .right .rightTxt::after{
     background: #F2F1E8;
-    content: "Favortie Books";
+    content: "Favorite Books";
 }
 .fun .fun-content .boxright{
     box-sizing: border-box;
