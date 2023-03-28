@@ -643,7 +643,7 @@ h2{
     width: 100%;
     height: inherit;
     max-height: inherit;
-    font-size: 2vmin;
+    font-size: 1.55vmin;
 }
 
 .experience .job{
@@ -656,7 +656,7 @@ h2{
     padding: 4px;
     color: white;
     height: 7%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .experience .position span{
