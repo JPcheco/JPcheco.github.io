@@ -500,13 +500,13 @@ body{
     font-weight: bold;
     font-size: 5vmin;
     text-transform: uppercase;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Poppins', cursive;
   }
   
   .card-container .directions{
     padding: 1vmin;
     text-align: center;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Poppins', cursive;
   }
 
 .about{
@@ -514,7 +514,7 @@ body{
     display: grid;
     place-items: center;
     /* margin: 20px 120px 20px 20px; */
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 .about .title span{
@@ -773,5 +773,5 @@ h2{
   display: grid;
   place-items: center;
   /* margin: 20px 120px 20px 20px; */
-  font-family: 'Shantell Sans', cursive;
+  font-family: 'Poppins', cursive;
 }
