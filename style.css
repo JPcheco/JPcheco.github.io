@@ -1,0 +1,298 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 60px;
+}
+
+section {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+/* 
+********************************
+ATHLETICS SECTION
+********************************
+*/
+
+.athlete-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.athlete-card-section {
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.athlete-card-image {
+    flex: 2;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.athlete-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Style for the Personal Bests section */
+.personal-bests {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.personal-bests h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.personal-bests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-bests li {
+    margin-bottom: 10px;
+}
+
+.personal-bests .event {
+    font-weight: bold;
+}
+
+.personal-bests .result {
+    color: blue; 
+}
+
+.personal-bests .unit {
+    font-style: italic;
+}
+
+/* Style for the Track Highlights card */
+.athlete-card.track-highlights {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.athlete-card.track-highlights .athlete-card-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.athlete-card.track-highlights .athlete-card-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.athlete-card.track-highlights span {
+    font-weight: bold;
+}
+
+/* 
+**************************
+PRojects section
+**************************
+*/
+
+.project_container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pcard {
+    width: calc(30.33% - 20px);
+    border: 1px solid #e9d5d5;
+    margin: 10px;
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+.pcard:hover {
+    box-shadow: 0px 2px 5px 2px rgba(233, 213, 213, 0.944);
+    transform: translateY(-5px);
+}
+
+.ptitle {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #e9d5d5;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.pcontent {
+    overflow: auto;
+    font-size: 12px;
+    margin: 10px 20px;
+    flex-grow: 1;
+}
+
+.project-card-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card-images img {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.project-card-images {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.image-scroll-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-scroll-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* 
+*************************
+Home page
+*************************
+*/
+
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 60px;
+    font-size: 100px;
+    color: #333; 
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Hover color */
+}
+
+
+.hero {
+    background-image: url('images/background1.avif');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #0077b5; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #005e91; 
+}
